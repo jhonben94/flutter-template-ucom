@@ -144,7 +144,7 @@ class ProfileView extends StatelessWidget {
                                 duration: const Duration(milliseconds: 500));
                           },
                           child: Text(
-                            "Edit Profile",
+                            "Modificar Perfil",
                             style: Theme.of(context)
                                 .textTheme
                                 .bodyMedium!
@@ -159,7 +159,7 @@ class ProfileView extends StatelessWidget {
                     ),
                     const SizedBox(height: 32),
                     Text(
-                      "Overview",
+                      "Descripción general",
                       style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                             fontSize: 16,
                             fontWeight: FontWeight.w700,
@@ -170,14 +170,14 @@ class ProfileView extends StatelessWidget {
                       children: [
                         incomeContainer(
                           context,
-                          "Net Income",
+                          "Ingresos Netos",
                           "\$4,500",
                           DefaultImages.income,
                         ),
                         const SizedBox(width: 16),
                         incomeContainer(
                           context,
-                          "Expense",
+                          "Gastos",
                           "\$1,691",
                           DefaultImages.outcome,
                         )
@@ -201,7 +201,7 @@ class ProfileView extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Spend this week",
+                              "Gastos de la semana",
                               style: Theme.of(context)
                                   .textTheme
                                   .bodyMedium!
@@ -249,7 +249,7 @@ class ProfileView extends StatelessWidget {
                               ],
                             ),
                             Text(
-                              "\$124 left to spend",
+                              "\$124 queda para gastar",
                               style: Theme.of(context)
                                   .textTheme
                                   .bodyMedium!
@@ -287,7 +287,7 @@ class ProfileView extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(left: 16, right: 16),
                       child: Text(
-                        "You joined Finpay on September 2021. It’s been 1 month since then and our mission is still the same, help you better manage your finance.",
+                        "Te uniste a Dispositivos moviles en mayo de 2025. Ha pasado casi un mes desde entonces y nuestra misión sigue siendo la misma: ayudarte a administrar mejor tus finanzas..",
                         style: Theme.of(context).textTheme.bodySmall!.copyWith(
                               fontSize: 12,
                               fontWeight: FontWeight.w400,

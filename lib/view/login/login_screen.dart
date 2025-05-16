@@ -2,8 +2,6 @@
 
 import 'package:finpay/config/images.dart';
 import 'package:finpay/controller/login_controller.dart';
-import 'package:finpay/view/login/otp_auth_screen.dart';
-import 'package:finpay/view/login/password_recovery_screen.dart';
 import 'package:finpay/view/signup/signup_screen.dart';
 import 'package:finpay/view/tab_screen.dart';
 import 'package:finpay/widgets/custom_button.dart';
