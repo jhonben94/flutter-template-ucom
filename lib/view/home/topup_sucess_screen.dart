@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
 class TopUpSucessScreen extends StatefulWidget {
-  const TopUpSucessScreen({Key? key}) : super(key: key);
+  const TopUpSucessScreen({super.key});
 
   @override
   State<TopUpSucessScreen> createState() => _TopUpSucessScreenState();

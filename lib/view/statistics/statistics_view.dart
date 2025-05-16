@@ -11,7 +11,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 
 class StatisticsView extends StatefulWidget {
-  const StatisticsView({Key? key}) : super(key: key);
+  const StatisticsView({super.key});
 
   @override
   State<StatisticsView> createState() => _StatisticsViewState();

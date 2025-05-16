@@ -8,7 +8,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 
 class CardView extends StatelessWidget {
-  const CardView({Key? key}) : super(key: key);
+  const CardView({super.key});
 
   @override
   Widget build(BuildContext context) {

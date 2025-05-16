@@ -10,7 +10,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 
 class VerifyIdentityScreen extends StatefulWidget {
-  const VerifyIdentityScreen({Key? key}) : super(key: key);
+  const VerifyIdentityScreen({super.key});
 
   @override
   State<VerifyIdentityScreen> createState() => _VerifyIdentityScreenState();

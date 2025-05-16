@@ -9,7 +9,7 @@ import 'package:get/get.dart';
 import 'package:pinput/pinput.dart';
 
 class OtpAuthenticationScreen extends StatefulWidget {
-  const OtpAuthenticationScreen({Key? key}) : super(key: key);
+  const OtpAuthenticationScreen({super.key});
 
   @override
   State<OtpAuthenticationScreen> createState() =>

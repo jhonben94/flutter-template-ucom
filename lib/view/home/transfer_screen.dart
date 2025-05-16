@@ -13,7 +13,7 @@ import 'package:get/get.dart';
 import 'package:swipe/swipe.dart';
 
 class TransferScreen extends StatefulWidget {
-  const TransferScreen({Key? key}) : super(key: key);
+  const TransferScreen({super.key});
 
   @override
   State<TransferScreen> createState() => _TransferScreenState();

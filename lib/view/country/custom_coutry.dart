@@ -116,7 +116,7 @@ class CountryPickerWidget extends StatefulWidget {
   final String searchHintText;
 
   const CountryPickerWidget({
-    Key? key,
+    super.key,
     this.onSelected,
     this.itemTextStyle = _defaultItemTextStyle,
     this.searchInputStyle = _defaultSearchInputStyle,
@@ -125,7 +125,7 @@ class CountryPickerWidget extends StatefulWidget {
     this.flagIconSize = 32,
     this.showSeparator = false,
     this.focusSearchBox = false,
-  }) : super(key: key);
+  });
 
   @override
   _CountryPickerWidgetState createState() => _CountryPickerWidgetState();

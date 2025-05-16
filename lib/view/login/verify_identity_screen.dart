@@ -10,7 +10,7 @@ import 'package:pinput/pinput.dart';
 import '../../widgets/custom_button.dart';
 
 class VerifyYourIdentityScreen extends StatefulWidget {
-  const VerifyYourIdentityScreen({Key? key}) : super(key: key);
+  const VerifyYourIdentityScreen({super.key});
 
   @override
   State<VerifyYourIdentityScreen> createState() =>

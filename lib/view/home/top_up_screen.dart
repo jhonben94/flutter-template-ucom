@@ -10,7 +10,7 @@ import 'package:get/get.dart';
 import 'package:swipe/swipe.dart';
 
 class TopUpSCreen extends StatefulWidget {
-  const TopUpSCreen({Key? key}) : super(key: key);
+  const TopUpSCreen({super.key});
 
   @override
   State<TopUpSCreen> createState() => _TopUpSCreenState();

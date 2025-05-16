@@ -14,7 +14,7 @@ class CardTextField extends StatelessWidget {
   final Widget? sufix;
   final TextInputType? inputType;
   const CardTextField({
-    Key? key,
+    super.key,
     this.hintText,
     this.radius,
     this.color,
@@ -22,7 +22,7 @@ class CardTextField extends StatelessWidget {
     this.isObsecure = false,
     this.sufix,
     this.inputType,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

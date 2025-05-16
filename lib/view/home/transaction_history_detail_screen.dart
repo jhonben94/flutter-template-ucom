@@ -11,8 +11,7 @@ import 'package:get/get.dart';
 class TransactionHistoryDetailScreen extends StatefulWidget {
   final TransactionModel transactionList;
   const TransactionHistoryDetailScreen(
-      {Key? key, required this.transactionList})
-      : super(key: key);
+      {super.key, required this.transactionList});
 
   @override
   State<TransactionHistoryDetailScreen> createState() =>

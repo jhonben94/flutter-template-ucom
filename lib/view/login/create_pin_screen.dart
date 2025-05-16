@@ -10,7 +10,7 @@ import 'package:pinput/pinput.dart';
 import '../../widgets/custom_button.dart';
 
 class CreateNewPinScreen extends StatefulWidget {
-  const CreateNewPinScreen({Key? key}) : super(key: key);
+  const CreateNewPinScreen({super.key});
 
   @override
   State<CreateNewPinScreen> createState() => _CreateNewPinScreenState();

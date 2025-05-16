@@ -28,7 +28,7 @@ void main() async {
 }
 
 class MyApp extends StatefulWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   static setCustomeTheme(BuildContext context, int index) async {
     final _MyAppState? state = context.findAncestorStateOfType<_MyAppState>();

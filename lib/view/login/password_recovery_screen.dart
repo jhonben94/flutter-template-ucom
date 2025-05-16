@@ -13,7 +13,7 @@ import 'package:get/get.dart';
 import '../../widgets/custom_button.dart';
 
 class PasswordRecoveryScreen extends StatefulWidget {
-  const PasswordRecoveryScreen({Key? key}) : super(key: key);
+  const PasswordRecoveryScreen({super.key});
 
   @override
   State<PasswordRecoveryScreen> createState() => _PasswordRecoveryScreenState();

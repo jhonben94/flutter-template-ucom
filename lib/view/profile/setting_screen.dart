@@ -14,7 +14,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class SettingScreen extends StatefulWidget {
-  const SettingScreen({Key? key}) : super(key: key);
+  const SettingScreen({super.key});
 
   @override
   State<SettingScreen> createState() => _SettingScreenState();
@@ -75,7 +75,7 @@ class _SettingScreenState extends State<SettingScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "Settings",
+                  "Configuración",
                   style: Theme.of(context).textTheme.titleLarge!.copyWith(
                         fontSize: 24,
                         fontWeight: FontWeight.w800,
@@ -93,7 +93,7 @@ class _SettingScreenState extends State<SettingScreen> {
                 const SizedBox(height: 16),
                 notificationView(
                   context,
-                  "Dark Mode",
+                  "Modo Oscuro",
                   CupertinoSwitch(
                     value: profileController.darkMode.value,
                     activeColor: HexColor(AppTheme.primaryColorString!),
@@ -112,7 +112,7 @@ class _SettingScreenState extends State<SettingScreen> {
                 const SizedBox(height: 22),
                 customRow(
                   context,
-                  "Reset Password",
+                  "Resetear Contraseña",
                 ),
                 const SizedBox(height: 32),
                 InkWell(
@@ -125,23 +125,23 @@ class _SettingScreenState extends State<SettingScreen> {
                   },
                   child: customRow(
                     context,
-                    "Notifications",
+                    "Notificaciones",
                   ),
                 ),
                 const SizedBox(height: 32),
                 customRow(
                   context,
-                  "Privacy Settings",
+                  "Configuración de Privacidad",
                 ),
                 const SizedBox(height: 32),
                 customRow(
                   context,
-                  "Help Center",
+                  "Centro de Ayuda",
                 ),
                 const SizedBox(height: 32),
                 customRow(
                   context,
-                  "Contact Us",
+                  "Contactanos",
                 ),
                 const SizedBox(height: 32),
                 InkWell(
@@ -150,12 +150,12 @@ class _SettingScreenState extends State<SettingScreen> {
                   },
                   child: customRow(
                     context,
-                    "Log out",
+                    "Salir",
                   ),
                 ),
                 const SizedBox(height: 32),
                 Text(
-                  "Follow Us",
+                  "Contactanos",
                   style: Theme.of(context).textTheme.bodySmall!.copyWith(
                         fontSize: 14,
                         fontWeight: FontWeight.w500,
@@ -191,7 +191,7 @@ class _SettingScreenState extends State<SettingScreen> {
                 const SizedBox(height: 20),
                 Center(
                   child: Text(
-                    "Log out",
+                    "Salir",
                     style: Theme.of(context).textTheme.titleLarge!.copyWith(
                           fontSize: 16,
                           fontWeight: FontWeight.w700,
@@ -202,7 +202,7 @@ class _SettingScreenState extends State<SettingScreen> {
                 const SizedBox(height: 16),
                 Center(
                   child: Text(
-                    "Finpay © 2021 v1.0",
+                    "Dispositivos Moviles 2025 1.0",
                     style: Theme.of(context).textTheme.bodySmall!.copyWith(
                           fontSize: 14,
                           fontWeight: FontWeight.w500,

@@ -11,7 +11,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 
 class RedsidencyProofScreen extends StatefulWidget {
-  const RedsidencyProofScreen({Key? key}) : super(key: key);
+  const RedsidencyProofScreen({super.key});
 
   @override
   State<RedsidencyProofScreen> createState() => _RedsidencyProofScreenState();

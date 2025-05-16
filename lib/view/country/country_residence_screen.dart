@@ -10,7 +10,7 @@ import 'package:get/get.dart';
 import '../reason/select_reason_screen.dart';
 
 class CountryResidenceScreen extends StatefulWidget {
-  const CountryResidenceScreen({Key? key}) : super(key: key);
+  const CountryResidenceScreen({super.key});
 
   @override
   State<CountryResidenceScreen> createState() => _CountryResidenceScreenState();

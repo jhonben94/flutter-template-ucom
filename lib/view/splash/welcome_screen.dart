@@ -11,7 +11,7 @@ import 'package:get/get.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class WelcomeFirstScreen extends StatefulWidget {
-  const WelcomeFirstScreen({Key? key}) : super(key: key);
+  const WelcomeFirstScreen({super.key});
 
   @override
   State<WelcomeFirstScreen> createState() => _WelcomeFirstScreenState();

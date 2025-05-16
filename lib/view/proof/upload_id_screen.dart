@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class UploadIdScreen extends StatefulWidget {
-  const UploadIdScreen({Key? key}) : super(key: key);
+  const UploadIdScreen({super.key});
 
   @override
   State<UploadIdScreen> createState() => _UploadIdScreenState();

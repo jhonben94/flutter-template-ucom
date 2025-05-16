@@ -8,7 +8,7 @@ import 'package:get/get.dart';
 import 'package:pinput/pinput.dart';
 
 class CreatePinScreen extends StatefulWidget {
-  const CreatePinScreen({Key? key}) : super(key: key);
+  const CreatePinScreen({super.key});
 
   @override
   State<CreatePinScreen> createState() => _CreatePinScreenState();

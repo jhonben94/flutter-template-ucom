@@ -8,7 +8,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 
 class FingerPrintScreen extends StatefulWidget {
-  const FingerPrintScreen({Key? key}) : super(key: key);
+  const FingerPrintScreen({super.key});
 
   @override
   State<FingerPrintScreen> createState() => _FingerPrintScreenState();

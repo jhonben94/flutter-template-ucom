@@ -8,7 +8,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 
 class UploadPhotoScreen extends StatefulWidget {
-  const UploadPhotoScreen({Key? key}) : super(key: key);
+  const UploadPhotoScreen({super.key});
 
   @override
   State<UploadPhotoScreen> createState() => _UploadPhotoScreenState();

@@ -8,7 +8,7 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
 class SelectReasonScreen extends StatefulWidget {
-  const SelectReasonScreen({Key? key}) : super(key: key);
+  const SelectReasonScreen({super.key});
 
   @override
   State<SelectReasonScreen> createState() => _SelectReasonScreenState();

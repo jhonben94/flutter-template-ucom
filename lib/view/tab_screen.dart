@@ -13,7 +13,7 @@ import 'package:get/get.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class TabScreen extends StatefulWidget {
-  const TabScreen({Key? key}) : super(key: key);
+  const TabScreen({super.key});
 
   @override
   State<TabScreen> createState() => _TabScreenState();

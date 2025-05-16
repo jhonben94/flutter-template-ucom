@@ -8,7 +8,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 
 class TransferSucessScreen extends StatefulWidget {
-  const TransferSucessScreen({Key? key}) : super(key: key);
+  const TransferSucessScreen({super.key});
 
   @override
   State<TransferSucessScreen> createState() => _TransferSucessScreenState();
